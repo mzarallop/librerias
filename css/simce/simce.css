@@ -1,0 +1,15 @@
+.pregunta
+{
+
+	padding: 1em;
+	border:dotted 1px gray;
+	margin-bottom: 1em;
+	overflow: scroll;
+	overflow-x:hidden;
+	height: 300px;
+
+}
+/*alternativas*/
+.alterativas , .alternativas li{margin:0px; cursor: pointer;}
+.alternativas li{list-style: none; padding: 1em; border:dotted 1px orange; margin-bottom: 1em;}
+.alternativas li img{width:50%;}

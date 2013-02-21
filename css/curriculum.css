@@ -1,0 +1,16 @@
+.asignaturas-list
+{
+ display:block;
+ margin: 0.5em;
+ padding: 2px;
+ border: dotted 1px gray;
+ transition:all 1s ease;
+ -webkit-transition:all 1s ease;
+}
+.asignaturas-list:hover
+{
+	background-color: orange;
+	color:white;
+}
+.asignaturas-list > .icon-remove
+{float:right;}

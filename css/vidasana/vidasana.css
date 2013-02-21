@@ -1,0 +1,102 @@
+.ficha_alumno
+{
+	border:dotted 1px #ccc;
+	border-radius: 0.5em;
+	padding: 1em;
+	margin-top: 0px;
+	background-color:white;
+}
+
+.grises
+{
+	display:inline-block;
+}
+.grises img {
+
+filter: url('#grayscale'); /* Versión SVG para IE10, Chrome 17, FF3.5, Safari 5.2 and Opera 11.6 */
+-webkit-filter: grayscale(100%);
+-moz-filter: grayscale(100%);
+-ms-filter: grayscale(100%);
+-o-filter: grayscale(100%);
+filter: grayscale(100%); /* Para cuando es estándar funcione en todos */
+filter: Gray(); /* IE4-8 and 9 */
+
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+}
+.grises img:hover {
+-webkit-filter: grayscale(0%);
+-moz-filter: grayscale(0%);
+-ms-filter: grayscale(0%);
+-o-filter: grayscale(0%);
+filter: none;
+
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+}
+
+p .control
+{
+	display:inline-block;
+
+}
+.control .imc
+{
+	background-color:red;
+	padding:0.5em;
+	text-align:center;
+	color:white;
+	border-radius:0.5em;
+}
+#title
+{
+	font-size:1em;
+}
+
+.fecha {
+
+ text-align: center;
+ border-radius:0.3em;
+ width: 50px;
+ font-weight:bold;
+ border:1px solid gray;
+ }
+.mes, .año {
+ font-size: 14px;
+ }
+.dia {
+ font-size: 30px;
+ line-height: 22px;
+ }
+ .plan_actividad
+ {
+ 	max-width: 300px;
+ 	display:inline-block; margin:1em;border:dotted 1px gray; padding:0.5em;
+ 	border-radius: 0.6em;
+ 	transition: all 0.3s ease;
+ }
+
+.plan_actividad:hover
+{
+	border:dotted 1px blue;
+}
+#fichas
+{
+
+    overflow: auto;
+    height: 300px;
+    overflow-x: hidden;
+    border: solid 1px rgba(29, 17, 17, 0.11);
+    border-radius: 0.5em;
+
+}
+.columnas3{column-count: 3; -webkit-column-count: 3;}
+
+ul.maquinas, .maquinas li{border:0px;}
+.maquinas li{list-style: none}
